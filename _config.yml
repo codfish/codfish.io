@@ -3,10 +3,11 @@
 title: Modern Interweb Developments
 email: email@chrisodonnell.io
 description: > # this means to ignore newlines until "baseurl:"
-  This is the portfolio site of Chris O'Donnell, not the actor. I'll
-  write about modern interweb developments (aka modern web development),
-  share some code & ideas I've had (or stolen, but find interesting),
-  and put some of the work I've done on display.
+  This is the portfolio site of Chris O'Donnell, the web developer,
+  not the actor. I'll write about modern interweb developments (aka
+  modern web development), share some code & ideas I've had
+  (or respectfully stolen, but find interesting), and put some
+  of the work I've done on display.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://chrisodonnell.io" # the base hostname & protocol for your site
 twitter_username: __codfish

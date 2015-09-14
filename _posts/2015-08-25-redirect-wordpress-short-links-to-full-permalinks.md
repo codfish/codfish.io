@@ -26,4 +26,4 @@ I ran into a situation with a client where short links were being used by a bitl
 
 Another issue was that users were being sent to these ugly permalinks when coming from social networks.
 
-If there are reasons that these "short links" shouldn't redirect to their respective permalinks (outside of previewing links), I'd love to know.
+If there are reasons that these "short links" shouldn't redirect to their respective permalinks (outside of previewing posts), I'd love to know.

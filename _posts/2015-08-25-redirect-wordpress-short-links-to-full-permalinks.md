@@ -24,6 +24,6 @@ Short links don't automatically redirect to the post permalink, like some people
 
 I ran into a situation with a client where short links were being used by a bitly plugin to shorten post urls for social services. This in turn was causing issues with services like LinkedIn that try and scrape the page for information, and links with query parameters seemed to give them trouble.
 
-Another issue was the users were being sent to these ugly permalinks.
+Another issue was that users were being sent to these ugly permalinks when coming from social networks.
 
 If there are reasons that these "short links" shouldn't redirect to their respective permalinks (outside of previewing links), I'd love to know.

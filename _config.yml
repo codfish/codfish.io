@@ -1,6 +1,7 @@
 ---
 # Site settings
-title: Modern Interweb Developments
+title: Codfish
+slogan: Modern Interweb Developments
 email: email@codfish.io
 description: > # this means to ignore newlines until "baseurl:"
   This is the personal site of Chris O'Donnell, the web developer, not the actor.

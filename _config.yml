@@ -1,7 +1,7 @@
 ---
 # Site settings
 title: Modern Interweb Developments
-email: email@chrisodonnell.io
+email: email@codfish.io
 description: > # this means to ignore newlines until "baseurl:"
   This is the personal site of Chris O'Donnell, the web developer,
   not the actor. I'll write about modern interweb developments (aka
@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
   (or respectfully stolen, but find interesting), and put some
   of the work I've done on display.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://chrisodonnell.io" # the base hostname & protocol for your site
+url: "http://codfish.io" # the base hostname & protocol for your site
 twitter_username: __codfish
 github_username:  codfish
 permalink: /blog/:title

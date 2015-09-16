@@ -12,3 +12,6 @@ url: "http://codfish.io" # the base hostname & protocol for your site
 twitter_username: __codfish
 github_username:  codfish
 permalink: /blog/:title
+
+kramdown:
+  input: GFM

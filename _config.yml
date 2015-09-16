@@ -8,11 +8,10 @@ description: > # this means to ignore newlines until "baseurl:"
   I'll write about modern interweb developments, share some code & ideas I've had
   (or respectfully stolen, but find interesting), and put some of the work I've
   done on display.
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://codfish.io" # the base hostname & protocol for your site
 twitter_username: __codfish
 github_username:  codfish
-permalink: /blog/:title
+permalink: /post/:title
 
 kramdown:
   input: GFM

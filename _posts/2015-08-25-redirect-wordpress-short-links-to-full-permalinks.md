@@ -4,13 +4,13 @@ date:   2015-08-25 09:58:00
 title:  "Redirect Wordpress Short Links to Full Permalinks"
 ---
 
-I'm not sure if "short links" are the official term for them, but the default post permalinks in Wordpress are your site url and a `p` parameter containing the post id.
+The default permalink structure in Wordpress are your site url and a `p` parameter containing the post id. I'm not sure if "short links" are the official term for them, but that's what I'm going to refer to them as :). Here's what they look like:
 
 ```
 codfish.io/?p=123456
 ```
 
-Also, regardless of your chosen permalink structure, post preview links will use this format.
+Also, regardless of your chosen permalink structure, preview links will use this format.
 
 ```
 codfish.io/?p=123456&preview=true
@@ -22,7 +22,7 @@ Short links don't automatically redirect to the post permalink, like some people
 
 <script src="https://gist.github.com/codfish/7b8c8f4c4f085429f07c.js"></script>
 
-I ran into a situation with a client where short links were being used by a bitly plugin to shorten post urls for social services. This in turn was causing issues with services like LinkedIn that try and scrape the page for information, and links with query parameters seemed to give them trouble.
+I ran into a situation with a site where short links were being used by a bitly plugin to shorten post urls for social services. This in turn was causing issues with services like LinkedIn that try and scrape the page for information, and links with query parameters seemed to give them trouble.
 
 Another issue was that users were being sent to these ugly permalinks when coming from social networks.
 

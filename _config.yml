@@ -15,6 +15,3 @@ permalink: /post/:title
 
 kramdown:
   input: GFM
-
-exclude:
-  - "Rakefile"

@@ -14,7 +14,7 @@ Just kidding... No but seriously, this was where my mind went initially, cause i
 
 ## CSS content
 
-I *quickly* correctly my last train of thought and decided to use CSS's `content` property.
+I *quickly* corrected my last train of thought and decided to use CSS's `content` property.
 
 <iframe width="100%" height="570" src="//jsfiddle.net/codfish/gck6hL1o/embedded/css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

@@ -20,8 +20,8 @@ I *quickly* correctly my last train of thought and decided to use CSS's `content
 
 You could also use an en dash or em dash if you wanted a wider bullet. If you want to do that you'll need to use the unicode for those characters.
 
-- en dash: `content: '\2013`
-- em dash: `content: '\2014`
+- en dash: `content: '\2013'`
+- em dash: `content: '\2014'`
 
 You'll probably need to adjust the left padding on the line items if you use one of these wider-than-dash characters.
 

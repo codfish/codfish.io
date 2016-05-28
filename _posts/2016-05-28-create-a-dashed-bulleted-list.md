@@ -2,8 +2,8 @@
 layout: post
 date: 2016-05-28 16:58:00
 title: 'Create an unordered list with dash bullets'
-tags: 'css'
-excerpt: 'Building a simple unordered list with dashes for bullets.'
+tags: '#css'
+excerpt: 'Building a simple unordered list with dashes for bullets with CSS.'
 ---
 
 I was building a marketing page for a client and while looking at a mockup, I came across a simple unordered, bulleted list using dashes. It's been awhile since I've written CSS consistently, so at first glance I thought that I was just going to be able to build this easily by setting the `list-style-type` property. I started to style the list however, and came to realize that dash is not a choice for `list-style-type`.
@@ -16,7 +16,7 @@ Just kidding... No but seriously, this was where my mind went initially, cause i
 
 I *quickly* correctly my last train of thought and decided to use CSS's `content` property.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codfish/gck6hL1o/embedded/css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="570" src="//jsfiddle.net/codfish/gck6hL1o/embedded/css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 You could also use an en dash or em dash if you wanted a wider bullet. If you want to do that you'll need to use the unicode for those characters.
 
@@ -45,4 +45,4 @@ First step is to give the li's some left padding cause we need room for the dash
 
 ## The final result
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codfish/gck6hL1o/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codfish/gck6hL1o/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

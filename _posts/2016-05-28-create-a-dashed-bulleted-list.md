@@ -16,7 +16,7 @@ Just kidding... No but seriously, this was where my mind went initially, cause i
 
 I *quickly* correctly my last train of thought and decided to use CSS's `content` property.
 
-<script async src="//jsfiddle.net/codfish/gck6hL1o/1/embed/css/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/codfish/gck6hL1o/embedded/css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 You could also use an en dash or em dash if you wanted a wider bullet. If you want to do that you'll need to use the unicode for those characters.
 
@@ -41,8 +41,8 @@ That's important because we want to make sure they're exactly the same, regardle
 
 In order to get the dashes showing up in the right spot, I'm using absolute positioning. I originally tried messing around with negative margins, but I noticed the dash wasn't vertically centered with the `li`'s first line, so I felt positioning would give me a greater amount of control.
 
-First step is to give the li's some left padding cause we need room for the dash to live. Then we'll set `position: relative` on the `li` to allow us to position those dashes absolutely. Then we can set a left position of `0`, and to help us with centering the dash, a small negative margin of `-1em`. If you decide you want bigger dashes and increase their `font-size`, using `em`'s on that negative margin will keep them centered nicely.
+First step is to give the li's some left padding cause we need room for the dash to live. Then we'll set `position: relative` on the `li` to allow us to position those dashes absolutely. Then we can set a left position of 0, and to help us with centering the dash, a small negative margin of `-1em`. If you decide you want bigger dashes and increase their `font-size`, using em's on that negative margin will keep them centered nicely.
 
 ## The final result
 
-<script async src="//jsfiddle.net/codfish/gck6hL1o/embed/result,css,html/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/codfish/gck6hL1o/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

@@ -16,14 +16,16 @@ Just kidding... No but seriously, this was where my mind went initially, cause i
 
 I *quickly* corrected my last train of thought and decided to use CSS's `content` property.
 
-<iframe width="100%" height="570" src="//jsfiddle.net/codfish/gck6hL1o/embedded/css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-You could also use an en dash or em dash if you wanted a wider bullet. If you want to do that you'll need to use the unicode for those characters.
+In order to do that we'll set `content: '-'` on the list items using the `::before` psuedo selector. You could also use an en dash or em dash if you wanted a wider bullet. If you want to do that you'll need to use the unicode for those characters.
 
 - en dash: `content: '\2013'`
 - em dash: `content: '\2014'`
 
 You'll probably need to adjust the left padding on the line items if you use one of these wider-than-dash characters.
+
+Here's the final code:
+
+<iframe width="100%" height="570" src="//jsfiddle.net/codfish/gck6hL1o/embedded/css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Aligning the dash
 

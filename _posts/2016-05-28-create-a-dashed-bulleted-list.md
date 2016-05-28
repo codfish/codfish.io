@@ -10,7 +10,7 @@ I was building a marketing page for a client and while looking at a mockup, I ca
 
 ## list-style-image
 
-Just kidding... No but seriously, this was where my mind went initially, cause it's been that long since the last time I needed to create a custom bullet. It's safe to say though, that this should never be the course
+Just kidding... No but seriously, this was where my mind went initially, cause it's been that long since the last time I needed to create a custom bullet. It's safe to say though, that this should never be the course of action you take to solve this problem.
 
 ## CSS content
 

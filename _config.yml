@@ -1,14 +1,11 @@
 ---
 # Site settings
-title: Chris O'Donnell
-slogan: Modern Interweb Developments
-email: chris at codfish dot io
-description: > # this means to ignore newlines until "baseurl:"
-  This is the personal site of Chris O'Donnell, the web developer, not the actor.
-  I'll write about modern interweb developments, share some code & ideas I've had
-  (or respectfully stolen, but find interesting), and put some of the work I've
-  done on display.
-url: "http://codfish.io" # the base hostname & protocol for your site
+title: Codfish i/o
+slogan: Internet
+email: contact@codfish.io
+description: >
+  Chris O'Donnell &mdash; Web developer, not the actor. Web developing since 2007 @ Manhattan College. Senior Consultant @ EY.
+url: "http://codfish.io"
 twitter_username: __codfish
 github_username:  codfish
 permalink: /post/:title

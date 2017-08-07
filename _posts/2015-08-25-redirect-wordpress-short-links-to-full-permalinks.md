@@ -6,15 +6,15 @@ title:  "Redirect Wordpress Short Links to Full Permalinks"
 
 The default permalink structure in Wordpress are your site url and a `p` parameter containing the post id. I'm not sure if "short links" are the official term for them, but that's what I'm going to refer to them as :). Here's what they look like:
 
-```
+<pre class="language-text">
 codfish.io/?p=123456
-```
+</pre>
 
 Also, regardless of your chosen permalink structure, preview links will use this format.
 
-```
+<pre class="language-text">
 codfish.io/?p=123456&preview=true
-```
+</pre>
 
 Short links don't automatically redirect to the post permalink, like some people (me) may have thought they did. If you switch your permalink structure to something more SEO friendly, existing posts should automatically redirect to the proper format. However, future posts will not. If you want all short links to redirect to their respective permalink, place this snippet in your `functions.php`.
 

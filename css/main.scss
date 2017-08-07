@@ -46,7 +46,6 @@ $code-border-color: #d7d7d7;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "base",
+  "layout"
 ;

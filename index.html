@@ -1,19 +1,76 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>codfish i/o</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
-          <span>{{ post.excerpt }}</span>
-        </h2>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300|Roboto:400,700|Barlow:300" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1><a href="https://www.codfish.io">codfish</a></h1>
+      </header>
+
+      <main>
+        <p><strong>Chris O'Donnell</strong> &mdash; Web developer, not the actor. Coding since 2004 @ Manhattan College. Engineering @ EY.</p>
+      </main>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="https://github.com/codfish">Github</a> &bull;
+          </li>
+          <li>
+            <a href="https://gist.github.com/codfish">Gist</a> &bull;
+          </li>
+          <li>
+            <a href="https://twitter.com/__codfish">Twitter</a> &bull;
+          </li>
+          <li>
+            <a href="https://medium.com/@codfish">Medium</a> &bull;
+          </li>
+          <li>
+            <a href="mailto:dev@codfish.io">dev@codfish.io</a> &bull;
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/~codfish">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <footer>
+        <strong>Colophon</strong> &mdash;
+        <nav>
+          <a href="https://html.spec.whatwg.org/">HTML5</a> &bull;
+          <a href="https://www.w3.org/Style/CSS/">CSS</a> &bull;
+          <a href="https://en.parceljs.org/">Parcel</a> &bull;
+          <a href="https://zeit.co/now">Now</a> &bull;
+          <a href="https://aws.amazon.com/route53/">Route53</a>
+        </nav>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-104368697-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+  </body>
+</html>

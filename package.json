@@ -1,0 +1,31 @@
+{
+  "name": "codfish.io",
+  "version": "1.0.0",
+  "description": "Personal website.",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html",
+    "deploy": "now ./dist --local-config ../now.json && now alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codfish/codfish.io.git"
+  },
+  "keywords": [
+    "personal site",
+    "codfish",
+    "js",
+    "php",
+    "web developer"
+  ],
+  "author": "Chris O'Donnell <dev@codfish.io>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codfish/codfish.io/issues"
+  },
+  "homepage": "https://codfish.io",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}

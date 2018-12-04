@@ -79,17 +79,18 @@ a:hover {
 }
 
 h1 a {
+  background: #333;
   display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  vertical-align: middle;
-  font-family: Barlow;
+  font-family: 'Source Sans Pro', 'Roboto Mono', monospace;
   font-size: 1.2rem;
   font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  letter-spacing: 1px;
   padding: 0 0.8rem;
   margin: 0;
-  background: #333;
   text-transform: uppercase;
+  vertical-align: middle;
 }
 
 h1 a,

@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - node
+
+cache:
+  directories:
+    - node_modules
+
+install: npm install --no-save
+
+script: npm run build
+
+# deploy to now on merge to master
+deploy:
+  - provider: script
+    script: npm run deploy
+    skip_cleanup: true
+    on:
+      master: true

@@ -26,6 +26,7 @@
   },
   "homepage": "https://codfish.io",
   "devDependencies": {
+    "now": "^12.1.8",
     "parcel-bundler": "^1.10.3"
   }
 }

@@ -54,12 +54,16 @@ textarea {
 }
 
 a {
-  color: #999;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.4);
+  color: rgb(51, 51, 51);
+  padding-bottom: 0.2rem;
   text-decoration: none;
+  transition: 150ms color linear, 150ms border-color linear;
 }
 
 a:hover {
-  color: #2882e6;
+  border-bottom: 1px solid rgba(40, 130, 230, 0.4);
+  color: rgb(40, 130, 230);
 }
 
 /* ==========================================================================
@@ -73,7 +77,15 @@ a:hover {
 }
 
 @media only screen and (min-width: 40em) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   #wrapper {
+    margin: 0;
     padding: 0;
   }
 }
@@ -90,7 +102,7 @@ h1 a {
   padding: 0 0.8rem;
   margin: 0;
   text-transform: uppercase;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 h1 a,
@@ -100,35 +112,74 @@ h1 a:hover {
 }
 
 main,
-nav {
-  margin: 2rem 0;
+#profiles {
+  margin: 2rem 0 0;
 }
 
-nav ul {
+#profiles ul {
   font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav li {
-  display: inline-block;
+#profiles li {
+  border-bottom: 1px solid #ccc;
   font-size: 0.9rem;
 }
 
-footer {
-  color: #999;
-  font-size: 0.8rem;
+#profiles li:last-child {
+  border-bottom: none;
 }
+
+#profiles a {
+  border: none;
+  display: block;
+  padding: 0.6rem;
+}
+
+#profiles a:hover {
+  border: none;
+}
+
+@media only screen and (min-width: 40em) {
+  #profiles li {
+    border: none;
+    display: inline-block;
+  }
+
+  #profiles a {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.4);
+    display: initial;
+    padding: initial;
+    padding-bottom: 0.2rem;
+  }
+
+  #profiles a:hover {
+    border-bottom: 1px solid rgba(40, 130, 230, 0.4);
+  }
+}
+
+.footer-ceiling {
+  border-style: dashed;
+  margin: 3em 0 1rem;
+  max-width: 6rem;
+}
+
+footer {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-bottom: 3rem;
+}
+
 footer nav {
   display: inline;
 }
 
-footer strong {
-  color: #ccc;
-}
-
-footer a:hover {
-  color: #333;
+footer a {
+  color: #999;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.4);
 }
 
 /* ==========================================================================
@@ -176,6 +227,10 @@ footer a:hover {
   clear: both;
 }
 
+.desktop-only {
+  display: none;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -187,6 +242,16 @@ footer a:hover {
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
+}
+
+@media only screen and (min-width: 40em) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
 }
 
 /* ==========================================================================

@@ -96,10 +96,10 @@ h1 a {
   font-family: 'Source Sans Pro', 'Roboto Mono', monospace;
   font-size: 1.2rem;
   font-weight: 300;
-  height: 40px;
-  line-height: 40px;
-  letter-spacing: 1px;
-  padding: 0 0.8rem;
+  height: 35px;
+  line-height: 35px;
+  letter-spacing: 3px;
+  padding: 0 0.7rem;
   margin: 0;
   text-transform: uppercase;
   vertical-align: top;
@@ -233,9 +233,7 @@ footer a {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries for Responsive Design.
    ========================================================================== */
 
 @media print,

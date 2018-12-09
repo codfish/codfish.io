@@ -26,7 +26,10 @@
   },
   "homepage": "https://codfish.io",
   "devDependencies": {
+    "normalize.css": "^8.0.1",
     "now": "^12.1.8",
-    "parcel-bundler": "^1.10.3"
-  }
+    "parcel-bundler": "^1.10.3",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {}
 }

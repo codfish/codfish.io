@@ -9,7 +9,9 @@ cache:
 
 install: npm install --no-save
 
-script: npm run build
+script:
+  - npm run build
+  - cp robots.txt ./dist
 
 # deploy to now on merge to master
 deploy:

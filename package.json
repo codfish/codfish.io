@@ -5,8 +5,8 @@
   "main": "dist/index.html",
   "scripts": {
     "build": "parcel build index.html",
-    "dev": "parcel index.html",
-    "deploy": "now ./dist --token $NOW_TOKEN --local-config ../now.json && now alias --token $NOW_TOKEN"
+    "now-build": "npm run build && cp robots.txt ./dist",
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -20,14 +20,13 @@
     "web developer"
   ],
   "author": "Chris O'Donnell <dev@codfish.io>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/codfish/codfish.io/issues"
   },
   "homepage": "https://codfish.io",
   "devDependencies": {
     "normalize.css": "^8.0.1",
-    "now": "^12.1.8",
     "parcel-bundler": "^1.10.3",
     "stylus": "^0.54.5"
   },

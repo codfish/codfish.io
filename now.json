@@ -5,7 +5,7 @@
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "routes": [
     {
-      "src": ".*\\.(js|jpg|jpeg|gif|png|svg|txt)$",
+      "src": ".*\\.(js|css|jpg|jpeg|gif|png|svg|txt|ttf|woff2)$",
       "headers": { "Cache-Control": "s-maxage=31536000" }
     }
   ]

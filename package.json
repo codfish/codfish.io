@@ -5,7 +5,7 @@
   "main": "dist/index.html",
   "scripts": {
     "build": "parcel build index.html",
-    "now-build": "npm run build && cp robots.txt ./dist",
+    "now-build": "npm run build && cp robots.txt favicon.ico ./dist",
     "dev": "parcel index.html"
   },
   "repository": {

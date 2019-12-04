@@ -28,7 +28,7 @@
   "devDependencies": {
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.10.3",
-    "stylus": "^0.54.5"
+    "stylus": "^0.54.7"
   },
   "dependencies": {}
 }

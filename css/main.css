@@ -90,6 +90,12 @@ a:hover {
   }
 }
 
+@media only screen and (max-height: 20em) {
+  body {
+    align-items: flex-start;
+  }
+}
+
 h1 a {
   background: #333;
   display: inline-block;
